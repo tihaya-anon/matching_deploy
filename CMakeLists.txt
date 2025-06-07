@@ -17,6 +17,6 @@ protobuf_generate(
   GENERATE_EXTENSIONS .grpc.pb.h .grpc.pb.cc
   PLUGIN "protoc-gen-grpc=${grpc_cpp_plugin_location}"
 )
-
+add_subdirectory(src)
 add_executable(server main.cpp)
 target_link_libraries(server proto_lib match_lib)

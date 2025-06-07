@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "server": "cpp",
+    "unordered_map": "cpp"
+  }
+}
